@@ -565,3 +565,8 @@
 // }
 // arr.sort((a, b) => a.age - b.age);
 // console.log(arr);
+
+// --------- Second largest number -------
+// let arr = [1, 8, 0, 3, 1, 7, 3, 9, 9, 2];
+// let x = [...new Set(arr.sort((a, b) => b - a))][1];
+// console.log("x: ", x);
