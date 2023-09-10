@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -20px;
+}
+
+#hover:hover {
+  color: blue;
+}
+body {
+  background: #f8e7ef;
+}
+
+button {
+  background: #000;
+  color: #ffffff;
+  border-radius: 20px;
+  border-color: grey;
+  font-size: 20px;
+  padding: 4px 20px;
+}
