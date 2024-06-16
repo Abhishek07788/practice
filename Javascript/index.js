@@ -570,3 +570,24 @@
 // let arr = [1, 8, 0, 3, 1, 7, 3, 9, 9, 2];
 // let x = [...new Set(arr.sort((a, b) => b - a))][1];
 // console.log("x: ", x);
+
+// function getSecondLargest(arr){
+//     if(arr.length < 2){
+//         console.log(null);
+//     }
+//     let first = -Infinity;
+//     let second = -Infinity;
+    
+//     for(let el of arr){
+//         if(el > first){
+//             second = first;
+//             first = el;
+//         } else if(el > second && el !== first){
+//             second = el;
+//         }
+//     }
+//     console.log(first)
+//     console.log(second)
+// }
+
+// getSecondLargest([1,4,7,9,3,5,9])
