@@ -204,6 +204,33 @@
 
 // console.log(ans);
 
+// // ---- Custom Memoization ----
+// function myMemoize(func, context) {
+//   const res = {};
+//   return (...arg) => {
+//     var argCache = JSON.stringify(arg);
+//     if (!res[argCache]) {
+//       res[argCache] = func.call(context || this, ...arg);
+//     }
+//     return res[argCache];
+//   };
+// }
+
+// function add(a, b) {
+//   for (let i = 0; i < 99999999; i++) {}
+//   return a + b;
+// }
+
+// const memoizedFunc = myMemoize(add);
+
+// console.time("First Call");
+// console.log(memoizedFunc(455, 443));
+// console.timeEnd("First Call");
+
+// console.time("Second Call");
+// console.log(memoizedFunc(455, 443));
+// console.timeEnd("Second Call");
+
 // ----------- SetTime out polyfill -------
 // function MySetTimeout(callback, time) {
 //   let i = 0;
