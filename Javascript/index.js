@@ -534,38 +534,6 @@
 // }
 // console.log(output);
 
-// ------ Code sniped -> 1 --------
-
-// console.log("First"); // 1
-// setTimeout(() => console.log("Second"), 0); // 3 // task queue
-// console.log("Third"); // 2
-
-// ------ Code sniped -> 2 --------
-
-// console.log("First"); // 1
-// function secondCall() {
-//   console.log("Second"); // 4
-// }
-// setTimeout(secondCall, 2000); // task queue
-// setTimeout(() => console.log("Third"), 0); // 3 / task queue
-// console.log("four"); // 2
-
-// process.stdin.setEncoding('utf8'); // Set the encoding to UTF-8
-// console.log('enter data:');
-
-// process.stdin.on('data', function (data) {
-//   // This function is called whenever new input is available
-//   // The 'data' parameter contains the input data as a string
-//   console.log('Input received: ' + data)
-// });
-
-// process.stdin.on('end', function () {
-//   // This function is called when the input stream ends (e.g. when the user presses Ctrl+D)
-//   console.log('Input stream ended.');
-// });
-
-// const city = ["noida", "delhi", "mumbai", "delhi"];
-// console.log([new Set(city)]);
 
 // ---------- ConCat --------
 // const arr = [
