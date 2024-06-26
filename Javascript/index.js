@@ -185,17 +185,19 @@
 // });
 
 // ----- Prototype polyfill reduce -------
-// Array.prototype.MyReduce = function (callback, initial) {
-//   let acc = initial;
-//   for (let i = 0; i < this.length; i++) {
-//     if (acc != undefined) {
-//       acc = callback.call(undefined, acc, this[i], i, this);
-//     } else {
-//       acc = this[i];
-//     }
-//   }
-//   return acc;
-// };
+// Array.prototype.MyReduce = function(callback, initialValue){
+//    let acc = initialValue;
+//    let startIndex = 0;
+   
+//    if(initialValue === undefined){
+//        acc = this[0];
+//        startIndex = 1;
+//    }
+//    for(let i = startIndex; i<this.length; i++){
+//        acc = callback(acc, this[i], i, this)
+//    }
+//    return acc;
+// }
 
 // const arr = [1, 2, 3, 4, 5, 6];
 // let ans = arr.MyReduce((acc, el) => {
