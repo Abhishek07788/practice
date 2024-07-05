@@ -48,13 +48,13 @@
     }]},....]*/
 
 // function isPrime(num) {
-//   let res = 0;
+//   let count = 0;
 //   for (let i = 1; i <= num; i++) {
 //     if (num % i === 0) {
-//       res = res + 1;
+//       count++;
 //     }
 //   }
-//   return res === 2 ? true : false;
+//   return count === 2 ? true : false;
 // }
 
-// console.log(isPrime(4)); // Output: false
+// console.log(isPrime(12)); // Output: false
