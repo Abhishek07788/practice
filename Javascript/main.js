@@ -47,12 +47,15 @@
       age: 23
     }]},....]*/
 
-// const isPrime = (num) => {
-//   if (num <= 1) return false;
-//   if (num <= 3) return true;
-
-//   for (let i = 2; i < Math.sqrt(num); i++) {
-//     if (num % i == 0) return false;
+// function isPrime(num) {
+//   if (num <= 2) return false;
+//   let res = 0;
+//   for (let i = 1; i <= num; i++) {
+//     if (num % i === 0) {
+//       res = res + 1;
+//     }
 //   }
-//   return true;
-// };
+//   return res === 2 ? true : false;
+// }
+
+// console.log(isPrime(4)); // Output: false
