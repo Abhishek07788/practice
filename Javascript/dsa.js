@@ -374,3 +374,24 @@
 //   }
 // }
 // console.log(arr);
+
+
+// // repeat the arr infinite --
+// const arr = [1, 2, 3];
+// let index = 0;
+// let direction = 1; // 1 for forward, -1 for backward
+// const iterateArray = () => {
+//   console.log(arr[index]); // ans => 1, 2, 3, 2, 1, 2, 3, 
+//   index += direction;
+  
+//   if(index === arr.length){
+//       direction = -1;
+//       index = arr.length - 2;
+//   }else if(index === -1){
+//       direction = 1;
+//       index = 1;
+//   }
+// };
+// // Start the interval
+// setInterval(iterateArray, 1000);
+
