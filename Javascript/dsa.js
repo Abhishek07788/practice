@@ -395,3 +395,40 @@
 // // Start the interval
 // setInterval(iterateArray, 1000);
 
+// Second last element
+// const arr = [1, 4, 63, 3, 6, 3, 2, 6, 3, 8, 4];
+// let last = -Infinity;
+// let sLast = -Infinity;
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > last) {
+//         sLast = last; // Store the previous max as second max
+//         last = arr[i]; // Update max
+//     } else if (arr[i] > sLast && arr[i] !== last) {
+//         sLast = arr[i]; // Update second max if it's smaller than max but greater than sLast
+//     }
+// }
+// console.log(sLast); // Output: 8
+
+// Third last element
+//const arr = [1, 4, 63, 3, 6, 3, 2, 6, 3, 8, 4];
+// let last = -Infinity;   // Largest
+// let sLast = -Infinity;  // Second largest
+// let tLast = -Infinity;  // Third larges
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > last) {
+//         tLast = sLast;  // Move second largest to third
+//         sLast = last;   // Move largest to second
+//         last = arr[i];  // Update largest
+//     } else if (arr[i] > sLast && arr[i] !== last) {
+//         tLast = sLast;  // Move second largest to third
+//         sLast = arr[i]; // Update second largest
+//     } else if (arr[i] > tLast && arr[i] !== sLast && arr[i] !== last) {
+//         tLast = arr[i]; // Update third largest
+//     }
+// }
+// console.log(tLast); // Output: 6
+
+
+
+
